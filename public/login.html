@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NGU-LI.</title>
+  </head>
+  <body>
+    <!-- NAV -->
+    <header class="text-gray-600 body-font bg-yellow-300">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a href="index.html"><img src="img/icon.png" class="w-50" /></a>
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <a href="index.html" class="mr-8 text-white hover:text-gray-900">Beranda</a>
+          <a href="profil.html" class="mr-8 text-white hover:text-gray-900">Profil</a>
+          <a href="prod.html" class="mr-8 text-white hover:text-gray-900">Produk Jasa</a>
+          <a href="kontak.html" class="mr-8 text-white hover:text-gray-900">Kontak</a>
+        </nav>
+        <a href="login.html"
+          ><button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+            Sign In
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg></button
+        ></a>
+      </div>
+    </header>
+    <!-- AKHIR NAV -->
+    <!-- ISI -->
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+        <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+          <h1 class="title-font font-medium text-6xl text-yellow-300">NGU-LI Login</h1>
+          <p class="leading-relaxed mt-4">*untuk karyawan / member</p>
+        </div>
+        <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+          <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign In</h2>
+          <div class="relative mb-4">
+            <label for="full-name" class="leading-7 text-sm text-gray-600">Nama Lengkap</label>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+          <button class="text-white bg-yellow-300 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-400 rounded text-lg">Sign Up</button>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR ISI -->
+  </body>
+</html>
